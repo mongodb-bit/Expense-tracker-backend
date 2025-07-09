@@ -1,4 +1,4 @@
-# 💰 Expense Tracker API
+# 💰 Expense Tracker backend
 
 A secure and modular **Node.js + Express** backend for managing user accounts, transactions, and authentication. Built with PostgreSQL for persistent data storage.
 
