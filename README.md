@@ -6,27 +6,24 @@ A secure and modular **Node.js + Express** backend for managing user accounts, t
 
 ## 📂 Folder Structure
 
-├── controllers/ # Business logic for routes
-│ ├── accountController.js
-│ ├── authcontroller.js
-│ ├── transactionController.js
-│ └── userController.js
-│
-├── db/ # PostgreSQL connection setup
-│ ├── index.js
-│ └── pool.js
-│
-├── middleware/ # Middleware (e.g., auth checks)
-│ └── authMiddleware.js
-│
-├── routes/ # Route handlers (API endpoints)
-│ ├── accountRoutes.js
-│ ├── authRoutes.js
-│ ├── transactionRoutes.js
-│ ├── userRoutes.js
-│ └── index.js
-│
-├── .env # Environment variables
+.
+├── controllers
+│   ├── accountController.js
+│   ├── authcontroller.js
+│   ├── transactionController.js
+│   └── userController.js
+├── db
+│   ├── index.js
+│   └── pool.js
+├── middleware
+│   └── authMiddleware.js
+├── routes
+│   ├── accountRoutes.js
+│   ├── authRoutes.js
+│   ├── transactionRoutes.js
+│   ├── userRoutes.js
+│   └── index.js
+└── .env
 
 
 
